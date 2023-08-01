@@ -1,0 +1,16 @@
+name: "HA CSGO"
+description: "Home assistant plugin for CSGO gamestate"
+version: "1.0.0"
+slug: "ha_csgo"
+init: false
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
+startup: application
+hassio_api: true
+homeassistant_api: true
+ports:
+  3000/tcp: 3000
