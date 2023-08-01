@@ -1,0 +1,3 @@
+name: foo
+url: http://example.com
+maintainer: foo <foo@example.com>
