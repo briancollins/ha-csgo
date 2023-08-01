@@ -1,6 +1,6 @@
 name: "HA CSGO"
 description: "Home assistant plugin for CSGO gamestate"
-version: "1.0.0"
+version: "1.0.1"
 slug: "ha_csgo"
 init: false
 arch:

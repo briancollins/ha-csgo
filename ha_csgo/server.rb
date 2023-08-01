@@ -12,7 +12,7 @@ set :bind, '0.0.0.0'
 
 post '/' do
   payload = JSON.load(request.body.read)
-  bomb_state = payload.dig('round', 'bomb')
+  bomb_state = payload.dig('round', 'bomb') || 'null'
   result = RestClient.post(
     'http://supervisor/core/api/states/csgo.bomb',
     {state: bomb_state}.to_json,
